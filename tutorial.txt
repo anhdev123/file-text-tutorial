@@ -1,0 +1,5 @@
+cài mac:
+https://www.youtube.com/watch?v=ywn9oqVCp8c
+chỉnh sửa file .vmx
+chỗ enthernet.virtualDev="e1000e"
+thành enthernet.virtualDev="vmxnet3"

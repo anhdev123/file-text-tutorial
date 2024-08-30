@@ -1,0 +1,152 @@
+
+#-----------------------------------------------------------------------------------------
+CHANGE NAME AND LOGO , BUILD APK
+
+đổi tên :
+            flutter pub add rename_app
+            flutter pub run rename_app:main all="LỊCH SỬ VIỆT NAM"
+đổi logo :
+
+
+trong file (yaml)
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "path/to/image.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "path/to/image.png"
+
+
+
+flutter pub get
+flutter pub run flutter_launcher_icons -f <your config file name here>
+
+
+
+
+flutter pub get
+flutter pub run flutter_launcher_icons
+
+--------------------------------màn load---------------
+
+build apk: 
+
+flutter clean
+flutter pub get 
+flutter run
+flutter build apk --split-per-abi
+
+
+----------------------ios---------------------------------------------------------
+open ios/Runner.xcworkspace
+
+
+
+-------------------tạo danh sách yêu thích--------------------------------------------------------
+
+
+tạo một class gôm các thuộc tính của product
+tạo một lisview rỗng
+tạo hàm add------------------------------------
+ void addToWishlist(Product product) {
+    setState(() {
+      <tên list tạo trên>.add(product);
+    });
+  }
+
+tạo hàm xóa-------------------------------------
+  void removeFromWishlist(Product product) {
+    setState(() {
+      wishlist.remove(product);
+    });
+  }
+
+
+
+
+
+
+flutter pub get
+dart run flutter_native_splash:create
+flutter pub run flutter_native_splash:create
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

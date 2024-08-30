@@ -1,0 +1,10 @@
+cd Desktop 
+unzip flutter.zip
+export PATH=$HOME/Desktop/flutter/bin:$PATH
+flutter doctor
+nano ~/.zshrc
+export PATH="$PATH:/Users/appluyenthi/Desktop/flutter/bin"
+export PATH="$PATH:/Users/super/Desktop/flutter/bin"
+nhấn Ctrl + O để lưu enter và Ctrl + X để thoát
+source ~/.zshrc
+sudo xcodebuild -license

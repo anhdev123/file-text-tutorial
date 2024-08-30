@@ -1,0 +1,94 @@
+git config --global user.name "PHAM HONG ANH"
+git config --global  user.email phanh.dhkl17a1hn@sv.uneti.edu.vn
+
+
+
+
+
+# kiểm tra config đc chưa
+
+
+git config --list
+
+git init
+
+git remote add origin https://github.com/anh37/K17A1_KHDL_2
+
+git remote --v # kiểm tra keets nối đc ch
+
+git add .
+
+git commit - m "ghi việc đang lm : như tải file chi đó lên"
+
+git push origin master
+
+
+# nếu có thêm file thì :
+git add .
+
+git commit - m" ghi việc đang lm : như tải file chi đó lên"
+
+git push origin master
+
+
+
+_____________________________ đổi tên tác giả :
+git filter-branch --env-filter 'if [ "$GIT_AUTHOR_NAME" = "SAN" ]; then export GIT_AUTHOR_NAME="Anh Pham"; export GIT_AUTHOR_EMAIL="phanh.dhkl17a1hn@sv.uneti.edu.vn"; fi' -- --all
+
+
+
+
+
+------------------delete----
+git branch -D Anh_test_git
+git push --delete origin anh/lab02
+
+Pham_Hong_Anh_23174600040
+
+Pham_Hong_Anh_23174600040/lab01
+Pham_Hong_Anh_23174600040/lab02
+Pham_Hong_Anh_23174600040/lab03
+Pham_Hong_Anh_23174600040/lab04
+ROOT_KHDL17A1HN_Pham_Hong_Anh_23174600040
+ main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

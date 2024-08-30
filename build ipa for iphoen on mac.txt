@@ -1,0 +1,30 @@
+
+build ipa---------
+flutter build ios --release
+cd build/ios/iphoneos
+mkdir Payload
+mv Runner.app Payload/
+zip -r Runner.ipa Payload
+
+build ipa upload---------------
+open ios/Runner.xcworkspace
+flutter build ios --release
+open ios/Runner.xcworkspace
+Từ menu, chọn Product > Archive.
+Nhấn Distribute App
+
+--- cài homee khi nén từ win for mac
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew update
+brew install ruby
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+brew install cocoapods
+pod --version
+cd ios
+pod install
+pod update
+
+
+
+
