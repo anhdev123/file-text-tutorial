@@ -16,3 +16,21 @@ link driver:
     <application android:label="Future Score" android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round">
+
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter_native_splash:
+  android: true
+  ios : true
+  web : false
+  image: "assets/logo/logoLoadApp.png"  # Đường dẫn đến logo 512x512
+  android_gravity: center  # Căn giữa logo trên Android
+  ios_content_mode: center  # Căn giữa logo trên iOS
+  color: "#40A5CC"  # Màu nền xanh cho cả Android và iOS
+  #fullscreen: true  # Sử dụng màn hình toàn màn
