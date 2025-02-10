@@ -1,5 +1,5 @@
 https://www.oracle.com/java/technologies/downloads/#jdk17-mac
-download dx64 DMG Installer
+download ARM64 DMG Installer	
 
 
 nano ~/.zshrc  # nếu bạn dùng zsh
