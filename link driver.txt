@@ -1,3 +1,4 @@
 link driver:
 https://github.com/MonitorControl/MonitorControl/releases
 
+com.appluyenthoiquen.taothoiqen
