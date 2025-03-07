@@ -1,1 +1,2 @@
 git clone git@github.com:anhdev123/appbmi.git
+Get-ChildItem -Path . -Recurse -Filter ".DS_Store" | Remove-Item -Force
