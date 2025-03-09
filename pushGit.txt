@@ -4,6 +4,17 @@ Get-ChildItem -Path . -Recurse -Filter ".DS_Store" | Remove-Item -Force
 // xóa toàn bộ ổ c
 Get-ChildItem -Path C:\ -Recurse -Filter ".DS_Store" -ErrorAction SilentlyContinue | Remove-Item -Force -ErrorAction SilentlyContinue
 
+
+
+
+//-------------------------configlist------------------------------------
+
+
+git config --global user.name "PHAM HONG ANH"
+git config --global  user.email phanh.dhkl17a1hn@sv.uneti.edu.vn
+
+# kiểm tra config đc chưa
+git config --list
 ssh-keygen -t rsa -b 4096 -C "phanh.dhkl17a1hn@sv.uneti.edu.vn"
 
 eval "$(ssh-agent -s)"
