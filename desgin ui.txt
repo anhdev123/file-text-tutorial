@@ -56,25 +56,15 @@ open ios/Runner.xcworkspace
 
 
 
--------------------tạo danh sách yêu thích--------------------------------------------------------
-
-
-tạo một class gôm các thuộc tính của product
-tạo một lisview rỗng
-tạo hàm add------------------------------------
- void addToWishlist(Product product) {
-    setState(() {
-      <tên list tạo trên>.add(product);
-    });
-  }
-
-tạo hàm xóa-------------------------------------
-  void removeFromWishlist(Product product) {
-    setState(() {
-      wishlist.remove(product);
-    });
-  }
-
+flutter_native_splash:
+  android: true
+  ios : true
+  web : false
+  image: "assets/logo/logoLoadApp.png"  # Đường dẫn đến logo 512x512
+  android_gravity: center  # Căn giữa logo trên Android
+  ios_content_mode: center  # Căn giữa logo trên iOS
+  color: "#40A5CC"  # Màu nền xanh cho cả Android và iOS
+  #fullscreen: true  # Sử dụng màn hình toàn màn
 
 
 
