@@ -19,3 +19,11 @@ tải lại thủ công bản 8.3 với java 17
 
 8.3-all
 https://services.gradle.org/distributions/
+
+
+rm -rf ~/.gradle
+rm -rf android/.gradle
+flutter clean
+flutter pub get
+flutter build apk
+
