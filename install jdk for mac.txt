@@ -8,7 +8,14 @@ export PATH=$JAVA_HOME/bin:$PATH
 // thêm hai dòng này vào cuối file
 source ~/.zshrc
 echo $JAVA_HOME
+
+
+
+
 open ~/.gradle
 xoá file wrapper/dists/gralde version
-xoá hết các file trong hshsjsjjsjdjdakeieu
+xoá hết các file trong hshsjsjjsjdjdakeieu , thay bạn tải xuống vào trong file hshsjsjjsjdjdakeieu
 tải lại thủ công bản 8.3 với java 17
+
+8.3-all
+https://services.gradle.org/distributions/
