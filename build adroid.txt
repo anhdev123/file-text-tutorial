@@ -9,7 +9,7 @@ android {
 
 bước 2------------------------------------------------------------------
         minSdk = 23//flutter.minSdkVersion
-        targetSdk = 34//flutter.targetSdkVersion
+        targetSdk = 35//flutter.targetSdkVersion
         versionCode = 1//flutterVersionCode.toInteger()
         versionName = "1.0.1"//flutterVersionName
 
