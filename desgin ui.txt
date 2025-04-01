@@ -65,8 +65,15 @@ flutter_native_splash:
   ios_content_mode: center  # Căn giữa logo trên iOS
   color: "#40A5CC"  # Màu nền xanh cho cả Android và iOS
   #fullscreen: true  # Sử dụng màn hình toàn màn
-
-
+// dùng 1 ảnh để full màn hình 
+flutter_native_splash:
+  android: true
+  ios : true
+  web : false
+  background_image: "assets/app-use/splashScreen.png"  # Đường dẫn đến logo 512x512
+  fullscreen: true  # Sử dụng màn hình toàn màn
+  android_gravity: fill  # Để ảnh phủ toàn bộ màn hình trên Android
+  ios_content_mode: scaleToFill  # Để ảnh phủ toàn bộ màn hình trên iOS
 
 
 
